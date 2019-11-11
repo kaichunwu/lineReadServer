@@ -22,7 +22,7 @@ function checkjava() {
 	return 1
 }
 
-# java is required
+# java version 1.8 is required
 checkjava
 if [ $? == 1 ];
 then
