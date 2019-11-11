@@ -10,11 +10,11 @@ then
     clear && java -jar demo/target/demo-0.0.1-SNAPSHOT.jar --file.name=$1 --file.count=$2 --server.port=$3
 elif [ $# -eq 2 ];
 then
-	clear && java -jar demo/target/demo-0.0.1-SNAPSHOT.jar --file.name=$1 --file.count=$2
+    clear && java -jar demo/target/demo-0.0.1-SNAPSHOT.jar --file.name=$1 --file.count=$2
 elif [ $# -eq 1 ];
 then
-	clear && java -jar demo/target/demo-0.0.1-SNAPSHOT.jar --file.name=$1
+    clear && java -jar demo/target/demo-0.0.1-SNAPSHOT.jar --file.name=$1
 else
-	show_usage
-	sleep 5
+    show_usage
+    sleep 5
 fi
