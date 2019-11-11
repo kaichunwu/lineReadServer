@@ -3,4 +3,3 @@
 *.text linguist-language=Java
 *.properties linguist-language=Java
 *.jar linguist-language=Java
-*.sh linguist-language=Java
