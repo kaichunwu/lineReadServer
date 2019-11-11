@@ -3,7 +3,7 @@ function show_usage() {
     echo "  filename: the path to the file to be read"
     echo "  splitLine: the split line number for cache, default: 10000"
     echo "  port_number: the port number for the HTTP server, default: 8088"
-	echo "  press ctrl+c to exit or wait for 5 seconds"
+    echo "  press ctrl+c to exit or wait for 5 seconds"
 }
 if [ $# -eq 3 ];
 then
