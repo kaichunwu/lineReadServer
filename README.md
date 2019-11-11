@@ -10,6 +10,7 @@ Use Command Line
 java -jar demo-0.0.1-SNAPSHOT.jar --file.name={fileName} --file.count={splitLineNumber} --server.port={serverPort}
 `
 to run the `.jar` file located in the `demo/target` folder.  
+**Run**: Can test using build.sh and run using run.sh following the instructions
 **Note**: Remember to fill the blanket with correct arguments. No need to install any other packages except java version 1.8.  
 **Maven Instruction**: To package the project, maven is needed. After config for maven, just type `mvn package` in the `demo` folder. To run with maven, just  type `mvn spring-boot:run` in the `demo` folder.
 
