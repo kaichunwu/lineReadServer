@@ -1,8 +1,8 @@
 function show_usage() {
-    echo "usage: run.sh filename splitLine port_number"
-    echo "  filename: the path to the file to be read"
-    echo "  splitLine: the split line number for cache, default: 10000"
-    echo "  port_number: the port number for the HTTP server, default: 8088"
+    echo "usage: type ./run.sh filename [splitLine] [portnumber]"
+    echo "  filename means the address for the file to be read"
+    echo "  splitLine means the split line number for cache, default: 10000"
+    echo "  portnumber means the port number for the HTTP server, default: 8088"
     echo "  press ctrl+c to exit or wait for 5 seconds"
 }
 if [ $# -eq 3 ];
