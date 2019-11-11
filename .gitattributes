@@ -1,0 +1,5 @@
+*.class linguist-language=Java
+*.java linguist-language=Java
+*.text linguist-language=Java
+*.properties linguist-language=Java
+*.jar linguist-language=Java
