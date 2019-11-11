@@ -26,7 +26,7 @@ function checkjava() {
 checkjava
 if [ $? == 1 ];
 then
-    echo "Please install java version 1.8 and try again."
+ 	echo "Please install java version 1.8 and try again."
 	echo "Press ctrl+c to exit or wait for 5 seconds"
 	sleep 5
 else
