@@ -1,4 +1,19 @@
 # Line Read Server
+## Description
+In this exercise, you will build and document a system that is capable of serving lines out of a file to network clients. You may do this in any language (although Ruby, Java, JavaScript, or Scala are preferred). You may use any reference and any open-source software you can find to help you build this system, so long as you document your use. However, you should not actively collaborate with others.
+Your system should act as a network server that serves individual lines of an immutable text file over the network to clients using the following simple REST API:
+
+* `GET /lines/<line index>` . 
+  * Returns an HTTP status of 200 and the text of the requested line or an HTTP 413 status if the requested line is beyond the end of the file.  
+
+Your server should support multiple simultaneous clients.
+The system should perform well for small and large files.
+The system should perform well as the number of GET requests per unit time increases.
+You may pre-process the text file in any way that you wish so long as the server behaves correctly.
+The text file will have the following properties:
+* Each line is terminated with a newline ("\n").
+* Any given line will fit into memory.
+* The line is valid ASCII (e.g. not Unicode).
 ## Overview
 A solution for the Line Server Problem.  
 The main function is developed using class RandomAccessFile. This class can access the content in the flie with the long pointer. Use `getFilePoint()` to get the long pointer. Use `seek(pointer)` to set the file pointer offset.
